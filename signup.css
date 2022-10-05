@@ -1,0 +1,101 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #c576767f, transparent);
+
+}
+.div2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    /* background-color: bisque; */
+    background-image: linear-gradient(45deg, #040b0500, #57548347);
+    box-shadow: rgb(0 0 0) 0px 10px 36px 0px, rgb(186 34 12) 0px 0px 0px 1px;
+    padding: 1%;
+}
+.btn1{
+    background-color: #abab79;
+    margin: 3%;
+    font-size: 16px;
+    padding: 8px 28px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    /* border-color: aqua; */
+
+}
+.loginIm{
+    align-self: center;
+    margin: 3%;
+    height: 20vh;
+    width: 20vh;
+    filter: drop-shadow(2px 2px 41px rgba(1111, 1111, 1111));
+
+    
+}
+.SignUp{
+    background-color: #79ab8570;
+    margin: 3%;
+    font-size: 16px;
+    padding: 3px 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.label1{
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    margin: 12px 0px;
+    box-shadow: 0px 10px 12px 5px gainsboro;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+.eye {
+    position: relative;
+    bottom: 45px;
+    left: 60px;
+}
+
+.label2{
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    margin: 12px 0px;
+    box-shadow: 0px 10px 12px 5px gainsboro;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div2 {
+        width: 70%;
+        background-color: #ef9a9a2e;
+        padding: 5px;
+        margin: 1px;
+    }
+}

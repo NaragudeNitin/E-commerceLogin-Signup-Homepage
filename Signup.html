@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="./Signup.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp/Artify </title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body onload='document.form1.pass.focus()'>
+    <div class="container">
+
+        <div class="div2">
+
+            
+
+            <label name="FullName" for="uname">Enter full name:</label>
+            <input id="FullName" class="label1" type="text" name="uname" placeholder="Full name">
+            <label class="error" id="forFullName"></label>
+
+            
+            <label for="pass">Enter Email </label>
+            <input id="Email" class="label2" name="pass" type="text" placeholder="e-mail adress">
+            <label class="error" id="forEmailId"></label>
+
+            <label for="birthdate"> Birth Date</label>
+            <input id="Birth" class="label2" type="date" name="birthdate" placeholder="DD/MM/YYYY">
+            <label class="error" id="forBirthDay"></label>
+
+            <label for="pass">Password</label>
+            <input id="Password" class="label2" type="password" placeholder="Enter password">
+            <i  onclick="showPass()" class="eye" id="togglePassword">Show</i>
+            <label class="error" id="forPass"></label>
+
+
+            <label for="pass">Confirm Password</label>
+            <input id="CheckPassword" class="label2" type="password" placeholder="Confirm password">
+            <i  onclick="showPass()" class="eye" id="togglePassword">Show</i>
+            <label class="error" id="forPass2"></label>
+
+            <button onclick="SignUpButtonClicked ; ValidateEmail(document.form1.text1)"  class="btn1">Create account</button>
+
+            
+
+        </div>
+
+    </div>
+</body>
+
+</html>
